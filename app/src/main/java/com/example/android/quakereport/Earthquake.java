@@ -6,26 +6,31 @@ package com.example.android.quakereport;
 
 public class Earthquake {
 
-    String mMagnitude;
+    Double mMagnitude;
     String mPlace;
     Long mTimeInMilliseconds;
+    String mUrl;
 
-    Earthquake(String Magnitude, String Place, Long TimeInMilliseconds){
-        mMagnitude =Magnitude;
-        mPlace=Place;
-        mTimeInMilliseconds=TimeInMilliseconds;
+    Earthquake(Double Magnitude, String Place, Long TimeInMilliseconds, String Url) {
+        mMagnitude = Magnitude;
+        mPlace = Place;
+        mTimeInMilliseconds = TimeInMilliseconds;
+        mUrl = Url;
     }
 
-    String getMagnitude(){
-        return mMagnitude ;
+    Double getMagnitude() {
+        return mMagnitude;
     }
 
-    String getPlace(){
+    String getPlace() {
         return mPlace;
     }
 
-    Long getTimeInMilliseconds(){
+    Long getTimeInMilliseconds() {
         return mTimeInMilliseconds;
     }
 
+    String getUrl() {
+        return mUrl;
+    }
 }

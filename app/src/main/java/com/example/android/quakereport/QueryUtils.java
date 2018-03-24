@@ -157,6 +157,8 @@ public final class QueryUtils {
 
     public static List<Earthquake> fetchEarthquakeData(String requestUrl) {
 
+        Log.e(LOG_TAG,"fetchEarthquakeData");
+
         URL address = createUrl(requestUrl);
         String jsonResponse = null;
         try {

@@ -15,4 +15,5 @@
 -->
 <resources>
     <string name="app_name">Quake Report</string>
+    <string name="onEmpty">Earthquake Data not available</string>
 </resources>

@@ -4,10 +4,25 @@ Quake Report App
 This app displays a list of recent earthquakes in the world
 from the U.S. Geological Survey (USGS) organization.
 
-Used in a Udacity course in the Beginning Android Nanodegree.
+This app uses preferences for sorting and selection of data from the api 
+for user ease.
 
 More info on the USGS Earthquake API available at:
 https://earthquake.usgs.gov/fdsnws/event/1/
+
+ScreenShots
+--------------
+
+<img src="QuakeReport1.png" heigth=700 width=400>
+
+<img src="QuakeReport2.png" heigth=700 width=400>
+
+<img src="QuakeReport3.png" heigth=700 width=400>
+
+<img src="QuakeReport4.png" heigth=700 width=400>
+
+<img src="QuakeReport5.png" heigth=700 width=400>
+
 
 Pre-requisites
 --------------
